@@ -1,0 +1,183 @@
+
+/* GLOBAL STYLYING */
+.brand-logo {
+    margin: auto 0;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Spectral', serif;
+}
+
+h2 {
+    font-family: 'Spectral', serif;
+}
+
+p {
+    font-family: 'Karla', sans-serif; 
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #202F56;
+    color: white;
+    height: 60px;
+}
+
+.uk-navbar-nav li a {
+    font-size: 1.2em;
+    font-family: 'Spectral', serif;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: white;
+}
+
+footer {
+    height: 60px;
+    padding: 15px 0;
+    color: white;
+    background-color: #202F56;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+/* ABOUT ME */
+#portfolio-image {
+    float: left;
+    margin-right: 1em;
+    width: 245px;
+    height: 360px;
+    border-radius: 7px;
+}
+
+#about-me p {
+    font-size: 1.3em;
+}
+
+#about-me h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* PORTFOLIO */
+#portfolio h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.projects-wrapper {
+    text-align: center;
+  }
+  
+  .banner {
+    background-color: #FFF0DF;
+    letter-spacing: 1.8px;
+    opacity: 0.8;
+    color: #C13B53;
+    text-align: center;
+    width: 224px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    top: 5.9em;
+  }
+  .images {
+    width: 224px;
+    height: 175px;
+    border-radius: 5px;
+  } 
+  
+  .images:hover ~ .banner {
+    background-color: #C13B53;
+    color: #FFF0DF;
+    opacity:1;
+    transition: .5s;
+    font-size: 21px;
+  }
+  
+  .banner:hover {
+    background-color: #C13B53;
+    color: #FFF0DF;
+    opacity:1;
+    transition: .5s;
+    font-size: 21px;
+  }
+  
+  .boxes {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    width: 224px;
+    height: 175px;
+    border-radius: 5px;
+  }
+
+  /* CONTACT */
+  #contact h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.form-group {
+    padding: 5px 0px 5px 0px;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #777;
+    font-weight: 400;
+  }
+  
+  input {
+    width: 75%;
+    height: 16px;
+  }
+  
+  textarea {
+    width: 75%;
+    border-color: lightgray;
+  }
+
+  input, label {
+    display:block;
+}
+
+
+/* PORTFOLIO */
+/* MAY COME BACK TO THIS CODE WHEN I HAVE TIME  */
+
+/* #portfolio h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.wrapper{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-gap: 20px;
+}
+
+.wrapper div {
+    background: #EEE;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+} 
+
+.images {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  } 
+
+.text-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
