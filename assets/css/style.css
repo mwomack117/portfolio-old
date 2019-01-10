@@ -1,224 +1,221 @@
-
 /* GLOBAL STYLYING */
 .brand-logo {
-    margin: auto 0;
-    color: white;
-    font-size: 2.4em;
-    font-family: 'Spectral', serif;
+  margin: auto 0;
+  color: white;
+  font-size: 2.4em;
+  font-family: "Spectral", serif;
 }
 
 h2 {
-    font-family: 'Spectral', serif;
+  font-family: "Spectral", serif;
 }
 
 p {
-    font-family: 'Karla', sans-serif; 
+  font-family: "Karla", sans-serif;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #202F56;
-    color: white;
-    height: 65px;
+  background: #202f56;
+  color: white;
+  height: 65px;
 }
 
 .uk-navbar-nav li a {
-    font-size: 1.2em;
-    font-family: 'Spectral', serif;
+  font-size: 1.2em;
+  font-family: "Spectral", serif;
 }
 
-.uk-navbar-nav>li.uk-active>a {
-    color: white;
+.uk-navbar-nav > li.uk-active > a {
+  color: white;
 }
 
 footer {
-    height: 60px;
-    padding: 15px 0;
-    color: white;
-    background-color: #202F56;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+  height: 60px;
+  padding: 15px 0;
+  color: white;
+  background-color: #202f56;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 footer p {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* ABOUT ME */
 #portfolio-image {
-    float: left;
-    margin-right: 1em;
-    width: 245px;
-    height: 367px;
-    border-radius: 7px;
+  float: left;
+  margin-right: 1em;
+  width: 245px;
+  height: 367px;
+  border-radius: 7px;
 }
 
 #about-me p {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 #about-me h2 {
-    margin-top: 20px;
-    margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 /* PORTFOLIO */
 #portfolio h2 {
-    margin-top: 20px;
-    margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .projects-wrapper {
-    text-align: center;
-  }
-  
-  .banner {
-    background-color: #FFF0DF;
-    letter-spacing: 1.8px;
-    opacity: 0.8;
-    color: #C13B53;
-    text-align: center;
-    width: 100%;
-    height: 40px;
-    font-size: 20px;
-    line-height: 50px;
-    position: absolute;
-    top: 5.9em;
-  }
-  .images {
-    width: 256px;
-    height: 200px;
-    border-radius: 5px;
-  } 
-  
-  .images:hover ~ .banner {
-    background-color: #C13B53;
-    color: #FFF0DF;
-    opacity:1;
-    transition: .5s;
-    font-size: 21px;
-  }
-  
-  .banner:hover {
-    background-color: #C13B53;
-    color: #FFF0DF;
-    opacity:1;
-    transition: .5s;
-    font-size: 21px;
-  }
-  
-  .boxes {
-    position: relative;
-    display: inline-block;
-    margin: 15px;
-    width: 256px;
-    height: 200px;
-    border-radius: 5px;
-  }
+  text-align: center;
+}
 
-  /* CONTACT */
-  #contact h2 {
-    margin-top: 20px;
-    margin-bottom: 0;
+.banner {
+  background-color: #fff0df;
+  letter-spacing: 1.8px;
+  opacity: 0.8;
+  color: #c13b53;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  line-height: 50px;
+  position: absolute;
+  top: 5.9em;
+}
+.images {
+  width: 256px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.images:hover ~ .banner {
+  background-color: #c13b53;
+  color: #fff0df;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 21px;
+}
+
+.banner:hover {
+  background-color: #c13b53;
+  color: #fff0df;
+  opacity: 1;
+  transition: 0.5s;
+  font-size: 21px;
+}
+
+.boxes {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  width: 256px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+/* CONTACT */
+#contact h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .form-group {
-    padding: 5px 0px 5px 0px;
-  }
-  
-  label {
-    font-size: 18px;
-    color: #777;
-    font-weight: 400;
-  }
-  
-  input {
-    width: 75%;
-    height: 16px;
-  }
-  
-  textarea {
-    width: 75%;
-    border-color: lightgray;
-  }
+  padding: 5px 0px 5px 0px;
+}
 
-  input, label {
-    display:block;
+label {
+  font-size: 18px;
+  color: #777;
+  font-weight: 400;
+}
+
+input {
+  width: 75%;
+  height: 16px;
+}
+
+textarea {
+  width: 75%;
+  border-color: lightgray;
+}
+
+input,
+label {
+  display: block;
 }
 
 @media screen and (max-width: 734px) {
-    .uk-navbar-container:not(.uk-navbar-transparent) {
-        display: block;
-        text-align: center;
-        padding: 10px;
-        height: 130px;
-        padding-bottom: 0;
-    }
-    
-    ul.uk-navbar-nav {
-        margin: 0 auto;
-    }
-    
-    .brand-logo {
-        margin-top: 10px;
-    }
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    height: 130px;
+    padding-bottom: 0;
+  }
 
-    .uk-navbar-right {
-        height: 70px;
-    }
+  ul.uk-navbar-nav {
+    margin: 0 auto;
+  }
 
+  .brand-logo {
+    margin-top: 10px;
+  }
+
+  .uk-navbar-right {
+    height: 70px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-.boxes {
+  .boxes {
     display: block;
     width: 320px;
     height: 250px;
     margin: 0 auto;
     margin-bottom: 15px;
     padding: 0;
-}
+  }
 
-.images {
+  .images {
     width: 320px;
     height: 250px;
-}
+  }
 
-.banner {
+  .banner {
     width: 100%;
     font-size: 24px;
     opacity: 0.8;
     height: 50px;
     font-size: 24px;
     line-height: 50px;
-}
+  }
 
-.images:hover ~ .banner {
-  background-color: #ee5050;
-  color: #a0d0f8;
-  opacity:1;
-  transition: .5s;
-  font-size: 28px;
-}
+  .images:hover ~ .banner {
+    background-color: #ee5050;
+    color: #a0d0f8;
+    opacity: 1;
+    transition: 0.5s;
+    font-size: 28px;
+  }
 
-.banner:hover {
-  background-color: #ee5050;
-  color: #a0d0f8;
-  opacity:1;
-  transition: .5s;
-  font-size: 26px;
-}
+  .banner:hover {
+    background-color: #ee5050;
+    color: #a0d0f8;
+    opacity: 1;
+    transition: 0.5s;
+    font-size: 26px;
+  }
 
-#portfolio-image {
+  #portfolio-image {
     float: none;
     width: 200px;
     height: 300px;
     border-radius: 30px;
-}
+  }
 
-.image-div {
+  .image-div {
     text-align: center;
     padding-bottom: 20px;
-}
-
-
+  }
 }
