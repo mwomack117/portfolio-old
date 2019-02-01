@@ -32,30 +32,35 @@
 
     <div class="uk-container">
       <section id="contact">
-        <form>
+        <div>
           <h2>Contact</h2>
           <hr style="margin-top: 0" />
-          <form>
+          <form
+            action="mailto:michael.womack84@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
             <div class="form-group">
               <label for="Name">Name</label>
-              <input type="text" placeholder="John Smith" />
+              <input name="name" type="text" placeholder="John Smith" />
             </div>
             <div class="form-group">
               <label for="Email">Email</label>
-              <input type="text" placeholder="example@gmail.com" />
+              <input name="email" type="text" placeholder="example@gmail.com" />
             </div>
             <div class="form-group">
               <label for="Message">Message</label>
-              <textarea rows="14" type="text-form"></textarea>
+              <textarea name="comment" rows="14" type="text-form"></textarea>
             </div>
             <button
               type="submit"
+              value="Send"
               class="uk-button uk-button-danger uk-button-small"
             >
               Submit
             </button>
           </form>
-        </form>
+        </div>
       </section>
     </div>
 
